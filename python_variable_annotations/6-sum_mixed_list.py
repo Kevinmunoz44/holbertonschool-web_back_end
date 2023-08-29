@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-""" Complex types - list of floats """
+""" Complex types - list of arguments in int and float """
 from typing import List
 
 
 def sum_mixed_list(mxd_lst: List[int]) -> float:
     """
-    function sum_list which takes a list input_list of
-    floats as argument and returns their sum as a float.
+    function sum_mixed_list which takes a list mxd_ls
+    of integers and floats and returns their sum as a float.
     """
     return sum(mxd_lst)
