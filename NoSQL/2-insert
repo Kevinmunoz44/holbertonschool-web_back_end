@@ -1,0 +1,2 @@
+// insert in the collection
+school.insert(name: “Holberton school”);
