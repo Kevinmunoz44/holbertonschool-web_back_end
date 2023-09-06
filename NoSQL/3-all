@@ -1,2 +1,2 @@
 // list all collections
-show collection;
+db.school.find();
