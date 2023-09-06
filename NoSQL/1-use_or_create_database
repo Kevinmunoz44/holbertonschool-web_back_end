@@ -1,0 +1,2 @@
+// create a new databases
+create database my_db;
