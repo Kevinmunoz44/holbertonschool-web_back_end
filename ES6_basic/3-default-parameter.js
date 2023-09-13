@@ -1,5 +1,5 @@
-export default function getSumOfHoods(initialNumber, expansion1989, expansion2019) {
-  expansion1989 = 89;
-  expansion2019 = 19;
+export default function getSumOfHoods(initialNumber, expansion1989 = 3, expansion2019 = 4) {
+  expansion1989;
+  expansion2019;
   return initialNumber + expansion1989 + expansion2019;
 }
