@@ -1,4 +1,4 @@
-export default function getSumOfHoods(initialNumber, expansion1989 = 3, expansion2019 = 4) {
+export default function getSumOfHoods(initialNumber = 2, expansion1989 = 3, expansion2019 = 4) {
     if (expansion1989 === undefined) {
       expansion1989 = 89;
     }
